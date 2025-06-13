@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/4e737a8d2c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar_left">
+            <img id="profile_pic" src="profile_pic.jpg" alt="Profile Picture">
+            <div id="profile_desc">
+                <p>Riley Suehsschlof</p>
+                <p>Software and Web Developer</p>
+            </div>
+        </div>
+
+        <div class="navbar_right">
+            <ul id="navbar_links">
+                 <li><a class="fa-solid fa-envelope" href="#contact"></a></li>
+                <li><a class="fa-brands fa-github"  target="_blank" 
+                    rel="noopener noreferrer"
+                    href="https://github.com/RileySuehsschlof"></a></li>
+                <li><a class="fa-brands fa-linkedin" target="_blank" 
+                    rel="noopener noreferrer"
+                    href="https://www.linkedin.com/in/riley-suehsschlof/"></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="main_content">
+        <p>
+            I'm a passionate developer focused on creating webapps 
+            and software. My expertise lies in building websites, 
+            though I also enjoy exploring new challenges. 
+            I am currently open to work.
+        </p>
+
+        <div class="about_me_container">
+            <div class="about_me">
+                <h2>About Me</h2>
+                <p>
+                    I have a solid foundation in web development, with a strong
+                    focus on building user-friendly and efficient applications.
+                    My passion for software development is rooted in a desire 
+                    to solve real-world problems and enhance the user 
+                    experience. I'm continuously learning and adapting to new 
+                    technologies and methodologies to refine my skills and stay
+                    current in the field. I completed the Computer 
+                    Programming Diploma at Red Deer Polytechnic,
+                        which I began in September 2023 and finished in
+                        April 2025. During my studies, I earned a place 
+                        on the President’s List every semester and 
+                        collaborated closely with both fellow students
+                        and instructors to develop practical,
+                        high-quality applications.
+                </p>
+            </div>
+        </div>
+        <div class="skills">
+                <h2>Languages and Technologies</h2>
+                <ul id="skills_list">
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Node, Express</li>
+                    <li>C# .NET & ASP.NET</li>
+                    <li>Java, Springboot</li>
+                    <li>Python</li>
+                    <li>MySql, MongoDB, Oracle, SQLServer</li>
+                </ul>
+            </div> 
+
+        <div class="school_projects">
+            <h2>School Projects</h2>
+            <div class="school_projects_list">
+                <div class="project_container">
+                    <img src="translate.png" alt="Project 1">
+                    <h3>SnapTranslate</h3>
+                    <p>
+                        A web application that uses easyOCR and SeamlessTranslate
+                        to translate text from images. It allows users to upload
+                        images and get the translated text in the selected 
+                        language.
+                    </p>
+                    <a href="https://github.com/Profundis-clamavi/SnapTranslate---Image-Reader-And-Translator" 
+                    target="_blank" rel="noopener noreferrer" class="github_redirect">Github &#8594;</a>
+                </div>
+
+                <div class="project_container">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>Description of project 2.</p>
+                    <a href="" target="_blank" rel="noopener noreferrer" class="github_redirect">Github &#8594;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="personal_projects">
+            <h2>Personal Projects</h2>
+            <div class="personal_projects_list">
+                <div class="project_container">
+                    <img src="pokedle_temp.png" alt="Project 1">
+                    <h3>Pokemon Guesser</h3>
+                    <p>
+                        A web application that allows you to try and guess a
+                        randomly selected Pokemon based on a series of attributes
+                        from past guesses.
+                    </p>
+                    <a href="" target="_blank" rel="noopener noreferrer" class="github_redirect">Github &#8594;</a>
+                </div>
+
+                <div class="project_container">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>Description of project 2.</p>
+                    <a href="" target="_blank" rel="noopener noreferrer" class="github_redirect">Github &#8594;</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="contact">
+            <h1>Contact</h1>
+            <form action="https://formspree.io/f/xqabqrpw" method="POST">
+                <p>Your Email</p>
+                <input type="email" name="email" required placeholder="">
+                <p>Your Message</p>
+                <textarea name="message" placeholder="" required minlength="10"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+</body>
+
+</html>
